@@ -133,4 +133,4 @@ def adicionar_pessoa(dados):
             idade = int(idade)
             if idade < 18 or idade > 80:
                 print('Idade inválida. Digite novamente.')
-            
+                continue
